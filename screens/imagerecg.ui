@@ -47,25 +47,6 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
     <string>Upload</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="train_button">
-   <property name="geometry">
-    <rect>
-     <x>390</x>
-     <y>540</y>
-     <width>251</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-radius:20px;
-background-color:rgb(29, 155, 240);
-font: 12pt &quot;MS Shell Dlg 2&quot;;
-color:white;</string>
-   </property>
-   <property name="text">
-    <string>Train</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="image_label">
    <property name="geometry">
     <rect>

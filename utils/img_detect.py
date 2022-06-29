@@ -66,6 +66,6 @@ def solution(img):
             age=ageList[agePreds[0].argmax()]
             print(f'Age: {age[1:-1]} years')
 
-            cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,0,0), 2, cv2.LINE_AA)
+            cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,0), 2, cv2.LINE_AA)
             cv2.imshow("Output", resultImg)
             # cv2.imwrite("output/output.jpg", resultImg)
